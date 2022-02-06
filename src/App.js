@@ -1,5 +1,10 @@
 function App() {
-  return <div>this is Andranik's first project</div>;
+  return (
+    <div>
+      <div>Azatyan hovhannes</div>
+      <div>Andranik tsaturyan</div>
+    </div>
+  );
 }
 
 export default App;
