@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "function": {
-        "images685daf28": {
+        "handles": {
             "Name": "string",
             "Arn": "string",
             "Region": "string",
@@ -22,6 +22,13 @@ export type AmplifyDependentResourcesAttributes = {
         "s30f5d1f02": {
             "BucketName": "string",
             "Region": "string"
+        }
+    },
+    "api": {
+        "api3491aa47": {
+            "RootUrl": "string",
+            "ApiName": "string",
+            "ApiId": "string"
         }
     }
 }

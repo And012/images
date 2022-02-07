@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "images685daf28",
+            "handles",
             {
               "Fn::Join": [
                 "",
                 [
-                  "images685daf28",
+                  "handles",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "imagesLambdaRole111b45d6",
+            "imagesLambdaRole170227e7",
             {
               "Fn::Join": [
                 "",
                 [
-                  "imagesLambdaRole111b45d6",
+                  "imagesLambdaRole170227e7",
                   "-",
                   {
                     "Ref": "env"
