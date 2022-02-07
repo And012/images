@@ -17,6 +17,10 @@
           "deploymentBucketName": "amplify-amplify843799e4b7c94-staging-132919-deployment",
           "s3Key": "amplify-builds/images685daf28-6a66516e3549637a4578-build.zip"
         }
+      },
+      "auth": {
+        "images89324eaf": {},
+        "true": {}
       }
     }
   }
