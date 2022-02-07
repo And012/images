@@ -1,4 +1,8 @@
 import React from "react";
+import Amplify, { API } from "aws-amplify";
+import awsconfig from "./aws-exports";
+
+Amplify.configure(awsconfig);
 
 function App() {
   return (
