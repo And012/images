@@ -1,0 +1,9 @@
+{
+  "function": {
+    "images685daf28": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}
